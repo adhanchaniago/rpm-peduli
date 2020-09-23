@@ -1,0 +1,51 @@
+{
+  "name": "project-rpm-peduli",
+  "version": "0.0.1",
+  "description": "Project website donasi rumah pemberdayaan peduli masyarakat di kembangkan dengan teknologi reactjs dan framework gatsbyjs.",
+  "main": "index.js",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "gatsby": "^2.24.61",
+    "gatsby-plugin-sass": "^2.3.13",
+    "material-ui-icons": "^1.0.0-beta.36",
+    "node-sass": "^4.14.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "prettier": "2.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syukrie77/rpm-peduli.git"
+  },
+  "keywords": [
+    "rumah",
+    "pemberdayaan",
+    "masyarakat",
+    "rpm",
+    "peduli",
+    "anti",
+    "riba",
+    "kampung",
+    "bebas",
+    "rentenir",
+    "donasi"
+  ],
+  "author": "@rpmpeduli",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/syukrie77/rpm-peduli/issues"
+  },
+  "homepage": "https://github.com/syukrie77/rpm-peduli#readme"
+}
