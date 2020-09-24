@@ -9,13 +9,17 @@ body{
 }
 
 .logo {
-  height: 40vmin;
+  height: 4vmin;
   pointer-events: none;
+  border-radius: 30px;
+  margin-right: 5px;
+  margin-top: 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
+@media screen and (max-width: 600px) {
   .logo {
-    animation: logo-spin infinite 20s linear;
+
+    height: 11vmin;
   }
 }
 
@@ -23,12 +27,13 @@ body{
   background-color: rgb(27, 186, 245);
   padding-top: 6px;
   padding-bottom: 6px;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
   color: white;
   z-index: 100;
-  justify-content: space-evenly;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
   
 }
 
@@ -94,7 +99,7 @@ html, body {
   box-sizing: border-box;
   min-height: calc(-60px + 100vh);
 }
-.navbar{
+.footer__div{
   list-style-type: none;
   display: flex;
   border-color: rgb(222, 222, 222) currentcolor currentcolor;
@@ -119,12 +124,12 @@ html, body {
   background-color: rgb(255, 255, 255);
   justify-content: center;
 }
-.navbar li{
+.footer__div li{
   width: 20%;
   font-size: 10px;
   cursor: pointer;
 }
-.navbar li a{  
+.footer__div li a{  
   text-decoration: none;
   color: rgb(0, 170, 239);
   display: flex;
@@ -220,11 +225,14 @@ header form{
   height: 36px;
   width: 100%;
   border-radius: 30px;
-  margin-right: auto;
-  margin-left: auto;
-  max-width: 200px;
-  align: center;
+  max-width: 300px;
   color: black;
+}
+
+@media screen and (max-width: 600px) {
+  .searchbar {
+    max-width: 230px;
+  }
 }
 
 .search__input {
@@ -296,4 +304,46 @@ form{
   box-sizing: border-box;
   height: 68%;
 inset: 16% 0 0 0 !important;
+}
+
+.div__tengah {
+  margin: auto;
+  width: 50%;
+}
+
+@media screen and (max-width: 600px) {
+  .div__tengah {
+    width: 90%;
+  }
+}
+
+.donasi__div {
+  background-color: transparent;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  box-shadow: 0 0 5px #000;
+  
+}
+
+.donasi__div > div {
+  display: flex;
+
+}
+
+.donasi__title {
+  font-size: 20px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.donasi__logo {
+  height: 22vmin;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  
+}
+
+.div__text {
+  margin-left: 12px;
 }

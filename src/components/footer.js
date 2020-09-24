@@ -6,7 +6,7 @@ import "../styles/index.scss"
 const Footer = () => {
   return (
     <div>
-        <ul className="navbar">
+        <ul className="footer__div">
           <li>
             <Link to="/">
               <img src="https://img.icons8.com/material-rounded/24/00aeef/home.png" />Home

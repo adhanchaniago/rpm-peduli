@@ -5,7 +5,7 @@ import Layout from "../components/layout"
 const DonasiSaya = () => {
   return (
     <Layout>
-        <div>
+        <div className="div__tengah">
             <h2><center>Hi <span>User</span>.</center></h2>
 
             <section>
