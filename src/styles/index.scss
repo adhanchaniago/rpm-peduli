@@ -13,7 +13,7 @@ body{
   pointer-events: none;
   border-radius: 30px;
   margin-right: 5px;
-  margin-top: 5px;
+  margin-top: 1px;
 }
 
 @media screen and (max-width: 600px) {
@@ -324,17 +324,21 @@ inset: 16% 0 0 0 !important;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
   box-shadow: 0 0 5px #000;
+  width: 100%;
+  align: center;
   
 }
 
 .donasi__div > div {
   display: flex;
+  flex-wrap: wrap;
 
 }
 
 .donasi__title {
   font-size: 20px;
   font-family: 'Roboto Condensed', sans-serif;
+  max-width: 100%;
 }
 
 .donasi__logo {
@@ -346,4 +350,23 @@ inset: 16% 0 0 0 !important;
 
 .div__text {
   margin-left: 12px;
+}
+
+.div__progressbar {
+  width: 95%;
+}
+
+@media screen and (max-width: 900px) {
+  .donasi__title {
+    max-width: 100%;
+  }
+  .div__progressbar {
+    width: 95%;
+  }
+  .donasi__logo {
+    width: 100%;
+    height: 40%;
+    border-top-right-radius: 10px;
+    
+  }
 }

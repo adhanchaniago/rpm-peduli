@@ -20,7 +20,7 @@ const IndexPage = () => {
               <img className="donasi__logo" src={Logo} />
               <div className="div__text">
                 <p className="donasi__title">
-                  Test Donation
+                  Banjir di daerah manakutahu dengan 7 skala richter
                 </p>
                 <br></br>
                 <p>
@@ -30,9 +30,9 @@ const IndexPage = () => {
                   </span>
                 </p>
                 <p>
-                  <ProgressBar now={90} />
+                  <ProgressBar now={90} className="div__progressbar" />
                 </p>
-                <p style={{fontSize:12, marginBottom: 0}}>
+                <p style={{fontSize:12, marginBottom: 0, width: 100}}>
                   Terkumpul :
                 </p>
                 <p style={{marginTop: 0}}>
