@@ -1,4 +1,5 @@
 import React from "react"
+<<<<<<< HEAD
 import { useStaticQuery, graphql } from "gatsby"
 
 import Layout from "../components/layout"
@@ -35,6 +36,18 @@ const Donasi = () => {
 	        )
 	      })}
 	</Layout>
+=======
+
+import Layout from "../components/layout"
+
+const Donasi = () => {
+    return (
+        <div>
+	  <Layout>
+            <h2><center>Halaman Donasi</center></h2>
+	  </Layout>
+        </div>
+>>>>>>> 26553a3de3aee8d96d5be70341346969f5b37452
     )
 }
 

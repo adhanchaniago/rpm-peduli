@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 module.exports = {
   siteMetadata: {
     title: `Donasi Rumah Pemberdayaan`,
@@ -39,5 +40,17 @@ module.exports = {
         ]
       }
     }
+=======
+/**
+ * Configure your Gatsby site with this file.
+ *
+ * See: https://www.gatsbyjs.org/docs/gatsby-config/
+ */
+
+module.exports = {
+  /* Your site config here */
+  plugins: [
+    'gatsby-plugin-sass'
+>>>>>>> 26553a3de3aee8d96d5be70341346969f5b37452
   ],
 }
