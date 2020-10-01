@@ -1,0 +1,19 @@
+[
+  {
+    "label": "Introduction",
+    "link": "/introduction"
+  },
+  {
+    "label": "Style",
+    "link": "/style"
+  },
+  {
+    "label": "Accessibility",
+    "link": "https://rpmapi.rumahpemberdayaan.com"
+  },
+  {
+    "donator": "http://localhost:8080/rpm/donator/",
+    "campaign": "http://localhost:8080/rpm/campaign/",
+    "donation": "http://localhost:8080/rpm/donation/"
+  }
+ ]
